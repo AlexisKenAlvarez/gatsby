@@ -35,7 +35,7 @@ const Hero = () => {
                         <img src="/logo.webp" alt="Logo" className='w-14'></img>
                         <p className='font-poppins font-bold text-2xl'>Gatsby</p>
                     </div>
-                    <GiHamburgerMenu className='text-mybrown text-3xl cursor-pointer' />
+                    {/* <GiHamburgerMenu className='text-mybrown text-3xl cursor-pointer' /> */}
                 </div>
             </nav>
 
