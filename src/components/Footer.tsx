@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
 
             <div className='w-full h-9 absolute bottom-0 bg-card flex items-center justify-center font-poppins lg:text-md sm:text-sm text-xs'>
-                All Rights Reserved © Bluelock Inu 2022.
+                All Rights Reserved © Gatsby Inu 2022.
             </div>
         </section>
     )
