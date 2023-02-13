@@ -10,8 +10,8 @@ const Tweet = () => {
 
     return (
         <section className='w-full h-auto flex lg:flex-row flex-col pb-20 lg:pb-0 items'>
-            <div className='lg:w-[80%] bg-[#EEEBD5] p-12 flex items-center justify-center'>
-                <img src="/Mockup.webp" alt="mockup" className='w-[50vh] mt-3'></img>
+            <div className='lg:w-[100%] bg-[#EEEBD5] p-12 flex items-center justify-center'>
+                <img src="/Mockup.webp" alt="mockup" className='w-[80vh] mt-3'></img>
             </div>
             <div className='w-full items-center flex px-8 justify-center lg:justify-start mt-20 lg:mt-0'>
                 <div className='h-fit w-fit lg:ml-20 '>
