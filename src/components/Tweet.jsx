@@ -15,12 +15,12 @@ const Tweet = () => {
             </div>
             <div className='w-full items-center flex px-8 justify-center lg:justify-start mt-20 lg:mt-0'>
                 <div className='h-fit w-fit lg:ml-20 '>
-                    <motion.div initial={{opacity: 0, x: 250}} animate={titleView ? {x: 0, opacity:  1 } : {}} transition={{duration: 0.8}}  className='sm:text-6xl text-5xl font-passion' ref={titleRef}>
+                    <motion.div initial={{opacity: 0, x: 200}} animate={titleView ? {x: 0, opacity:  1 } : {}} transition={{duration: 0.8}}  className='sm:text-6xl text-5xl font-passion' ref={titleRef}>
                         <h1>LOREM IPSUM</h1>
                         <h1>TEMPOR LABORIS</h1>
                     </motion.div>
 
-                    <motion.p initial={{opacity: 0, x: 250}} animate={subView ? {x: 0, opacity:  1 } : {}} transition={{duration: 0.8}} className='font-poppins lg:max-w-[30rem] max-w-[25rem] mt-4 leading-8' ref={subRef}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </motion.p>
+                    <motion.p initial={{opacity: 0, x: 200}} animate={subView ? {x: 0, opacity:  1 } : {}} transition={{duration: 0.8}} className='font-poppins lg:max-w-[30rem] max-w-[25rem] mt-4 leading-8' ref={subRef}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </motion.p>
                 </div>
             </div>
         </section>

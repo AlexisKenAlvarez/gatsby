@@ -39,7 +39,7 @@ const Hero = () => {
                 </div>
             </nav>
 
-            <div className='absolute w-20 h-20 border-2 text-mybrown text-xl bottom-5 right-5'>
+            <div className='absolute w-20 h-20 text-mybrown text-xl bottom-5 right-5'>
                 <FaPaw className='rotate-[-45deg] absolute bottom-0 right-0' />
                 <FaPaw className='rotate-[-45deg] absolute bottom-5 left-0 text-2xl' />
                 <FaPaw className='rotate-[-45deg] absolute top-0 right-4 text-3xl' />
