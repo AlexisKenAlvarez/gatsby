@@ -65,7 +65,7 @@ const Tokenomics = () => {
                     </p>
                 </div>
                 <div>
-                    <motion.img initial={{ opacity: 0, x: 250 }} animate={dogview ? { x: 0, opacity: 1 } : {}} transition={{ duration: 0.8 }} src="TokenDog.webp" alt="TokenDog" className='w-[40vh]' ref={dogref}></motion.img>
+                    <motion.img initial={{ opacity: 0 }} animate={dogview ? { x: [200,  0], opacity: 1 } : {}} transition={{ duration: 0.8 }} src="TokenDog.webp" alt="TokenDog" className='w-[40vh]' ref={dogref}></motion.img>
                 </div>
 
             </div>
